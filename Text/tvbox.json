@@ -1,16 +1,9 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;945b391d7430796229f6d5309037abeb",
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;e4f7f2bc171ddcf963e249003caa9b40",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
       "name": "直播",
-      "type": 0,
-      "url": "https://raw.iqiq.io/zhanghong1983/TVBOXZY/main/tvbox.jsont",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "測試",
       "type": 1,
       "url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
@@ -46,13 +39,11 @@
     },
    {"key":"csp_Bd","name":"💥bidi┃SP","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":1},
 {"key":"csp_Czsapp","name":"📔厂长┃SP","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":1},
-	  
+  
 {"key":"csp_DiDuan" ,"name":"⏮️低端┃SP","type":3,"api":"csp_Ddrk","click": "ddys.tv;#vjsp > button","searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":0},
-{"key":"csp_apple","name":"🍎苹果┃SP","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":1},
 {"key":"csp_Cokemv","name":"📕Cok┃SP","type":3,"api":"csp_Cokemv","playerType":1,"searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":1},
 {"key":"csp_Lib","name": "🎉Lib┃SP","type": 3,"api": "csp_Lib","searchable": 1,"quickSearch": 1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable": 1},
-{"key":"csp_Auete","name":"🏝Aue┃SP","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":1},	  
-
+{"key":"csp_Auete","name":"🏝Aue┃SP","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"jar":"https://raw.iqiq.io/liu673cn/box/main/sub/jar/2212.jar","filterable":1},
     {
       "key": "櫻花",
       "name": "櫻花",
@@ -84,7 +75,7 @@
       "api": "csp_Paper",
       "searchable": 1,
       "filterable": 1,
-      "ext": "http://ali.饭太硬.ml/tok"
+      "ext": "http://我不是.肥猫.love:63/token.php"
     },
     {
       "key": "易搜",
@@ -93,7 +84,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
+      "ext": "http://我不是.肥猫.love:63/token.php"
     },
     {
       "key": "盤搜",
@@ -102,7 +93,7 @@
       "api": "csp_PanSou",
       "searchable": 1,
       "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
+      "ext": "http://我不是.肥猫.love:63/token.php"
     },
     {
       "key": "UP雲搜",
@@ -111,7 +102,7 @@
       "api": "csp_UpYun",
       "searchable": 1,
       "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
+      "ext": "http://我不是.肥猫.love:63/token.php"
     },
     {
       "key": "找資源",
@@ -120,7 +111,16 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
+      "ext": "http://我不是.肥猫.love:63/token.php"
+    },
+    {
+      "key": "Live",
+      "name": "直播",
+      "type": 3,
+      "api": "csp_Live",
+      "searchable": 0,
+      "filterable": 0,
+      "ext": "2000"
     },
     {
       "key": "push_agent",
@@ -129,7 +129,7 @@
       "api": "csp_Push",
       "searchable": 1,
       "filterable": 0,
-      "ext": "http://ali.饭太硬.ml/tok"
+      "ext": "http://我不是.肥猫.love:63/token.php"
     }
   ]
 }
